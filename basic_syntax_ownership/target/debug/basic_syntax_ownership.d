@@ -1,0 +1,1 @@
+/Users/ziv_y_chang/ziv_test_dir/my_study_plan/rust/rust_lang/basic_syntax_ownership/target/debug/basic_syntax_ownership: /Users/ziv_y_chang/ziv_test_dir/my_study_plan/rust/rust_lang/basic_syntax_ownership/src/main.rs
