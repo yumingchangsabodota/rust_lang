@@ -23,7 +23,6 @@ fn main() {
     loop{
         let mut rng = rand::thread_rng();
         let ans = rng.gen_range(0..100);
-
         loop{
             let input = get_input();
             if is_int(&input){
