@@ -14,7 +14,7 @@ fn is_int(a: &String) -> bool {
     a.parse::<i32>().is_ok()
 }
 
-fn parse_to_i32(a: String) -> i32 {
+fn parse_to_i32(a: &String) -> i32 {
     let result: i32 = a.parse().expect("parse error");
     result
 }
@@ -26,17 +26,16 @@ fn main() {
         loop{
             let input = get_input();
             if is_int(&input){
-                if parse_to_i32(input) == ans{
+                if parse_to_i32(&input) == ans{
                     println!("You win!!!");
                     break
                 }else{
-                    println!("Wrong, guess again");
-                    if parse_to_i32(input)> ans{
-                        
+                    if parse_to_i32(&input) > ans{
+                        println!("Wrong! Lower!, guess again");
+                    }else if parse_to_i32(&input) < ans{
+                        println!("Wrong! Higher!, guess again");
                     }
-
                 }
-
             }else{
                 println!("Must enter a number between 1 to 100")
             }
