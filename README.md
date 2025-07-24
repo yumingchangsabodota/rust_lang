@@ -39,6 +39,7 @@
 - Implementing traits
 
 ### Hands-on Project:
+##### ✅ Done [https://github.com/yumingchangsabodota/rust_lang/tree/master/to_do_list]
 **Build a To-Do List CLI App**
 - Create a `Task` struct with fields: `title`, `description`, and `status (Pending/Done)`.
 - Use an `enum` for task status.
