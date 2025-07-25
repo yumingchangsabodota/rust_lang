@@ -55,6 +55,7 @@
 - Iterators and closures
 
 ### Hands-on Project:
+##### ✅ Done [https://github.com/yumingchangsabodota/rust_lang/tree/master/word_counter]
 **Build a Word Frequency Counter**
 - Read a text file, count the occurrences of each word, and display the top 5 most frequent words.
 - Use a `HashMap<String, u32>` to store counts.
